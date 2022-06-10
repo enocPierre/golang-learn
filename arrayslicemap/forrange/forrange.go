@@ -7,7 +7,7 @@ func main() {
 	numeros := [...] int {1,2,3,4,5} // compilador contas!
 
 	for i, numero := range numeros {
-		fmt.Println("%d) %d\n", i, numero)
+		fmt.Printf("%d) %d\n", i, numero)
 	}
 
 	for num := range numeros {
